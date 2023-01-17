@@ -8,7 +8,7 @@
   --pink: oklch(58.9% 0.253 2.35);
 
   --background-0: var(--white);
-  --text-color-0: var(--violet);
+  --text-color-0: var(--black);
 }
 
 @media (prefers-color-scheme: dark) {

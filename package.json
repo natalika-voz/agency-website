@@ -1,0 +1,13 @@
+{
+  "name": "agency-website",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natalika-voz/Agency-Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/natalika-voz/Agency-Website#readme"
+}
