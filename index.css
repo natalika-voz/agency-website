@@ -64,11 +64,17 @@ input[type="radio"].visually-hidden {
 }
 
 .container {
-  width: 1280px;
+  max-width: calc(1280px + 20px + 20px);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -77,15 +83,35 @@ input[type="radio"].visually-hidden {
   line-height: 24px;
 }
 
-.nav {
+.nav__list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
   display: flex;
   flex-wrap: wrap;
+  column-gap: 30px;
+  list-style: none;
 }
 
+.nav__link {
+  text-decoration: none;
+}
+
+.nav__link_active {
+  color: var(--pink);
+}
+
+
 .header__contact {
+  display: flex;
+  align-items: center;
+  min-height: 50px;
+  padding: 10px 42px;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
   color: var(--pink);
+  text-decoration: none;
+  border: 1px solid var(--pink);
+  border-radius: 5px;
 }
-
