@@ -1,0 +1,12 @@
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.logo__svg {
+  margin-right: 15px;
+}

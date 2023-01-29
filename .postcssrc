@@ -1,0 +1,9 @@
+{
+  "plugins": {
+    "@csstools/postcss-oklab-function": {
+      "subFeatures": {
+        "displayP3": false
+      }
+    }
+  }
+}

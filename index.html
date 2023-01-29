@@ -11,10 +11,13 @@
   <title>Template Agency Website</title>
 </head>
 
-<body>
+<body class="page">
   <div class="container">
     <header class="header">
-      <div class="logo">Eset Up</div>
+      <div class="logo">
+        <img class="logo__svg" src="./public/logo.svg" alt="Логотип сайта Agency-Website">
+        Eset Up
+      </div>
 
       <nav class="nav">
         <ul class="nav__list">
@@ -28,13 +31,29 @@
             <a class="nav__link" href="#">Service</a>
           </li>
           <li>
+            <a class="nav__link" href="#">Price</a>
+          </li>
+          <li>
             <a class="nav__link" href="#">Testimonial</a>
           </li>
         </ul>
       </nav>
       <a class="header__contact" href="#">Contact</a>
     </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="hero__content">
+          <h1 class="hero__title">Great software is built with <span class="hero__title_pink">amazing developers</span>
+          </h1>
+          <p class="hero__desc">We help build and manage a team of world-class developers to bring your vision to life
+          </p>
+          <button class="button">Get Started</button>
+        </div>
+      </section>
+    </main>
   </div>
+
 </body>
 
 </html>

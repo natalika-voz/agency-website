@@ -1,0 +1,28 @@
+.hero {
+  display: flex;
+  min-height: 660px;
+  padding-top: 100px;
+  background-image: url("../../public/man-sitting.png");
+  background-repeat: no-repeat;
+  background-position: top 0  right 0;
+}
+
+
+.hero__title {
+  margin-bottom: 25px;
+}
+
+.hero__title_pink {
+  color: var(--pink);
+}
+
+.hero__desc {
+  margin-top: 0;
+  margin-bottom: 25px;
+  line-height: 42px;
+  max-width: 520px;
+}
+
+.hero__content {
+  max-width: 630px;
+}
