@@ -1,5 +1,5 @@
 :root {
-  --white: oklch(100% 3.5594404092893915e-8 106.37411396324427);
+  --white: oklch(100% 3.5594);
   --violet: oklch(56.2% 0.26 281.81);
   --black-blue: oklch(18.04% 0.03 268.34);
   --black: oklch(22.44% 0.003 17.39);
@@ -7,7 +7,6 @@
   --gray: oklch(61.42% 0.036 291.03);
   --gray-img: oklch(88.53% 0 0);
   --pink: oklch(58.9% 0.253 2.35);
-
   --background-0: var(--white);
   --text-color-0: var(--black);
 }

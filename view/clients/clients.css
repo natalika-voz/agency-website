@@ -1,12 +1,7 @@
-.clients {
-
-}
-
 .clients__title {
   margin-block-end: 10px;
-  color: var(--pink);
   margin-block-start: 0;
-  margin-block-end: 0;
+  color: var(--pink);
   line-height: 40px;
   font-weight: 700;
   text-align: center;
@@ -29,5 +24,3 @@
   justify-content: center;
   gap: 90px;
 }
-
-
