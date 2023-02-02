@@ -1,12 +1,12 @@
 .hero {
   display: flex;
+  margin-block-end: 90px;
   min-height: 660px;
   padding-top: 100px;
   background-image: url("../../public/man-sitting.png");
   background-repeat: no-repeat;
   background-position: top 0  right 0;
 }
-
 
 .hero__title {
   margin-bottom: 25px;
