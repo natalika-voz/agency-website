@@ -1,11 +1,11 @@
 .hero {
   display: flex;
-  margin-block-end: 90px;
   min-height: 660px;
   padding-top: 100px;
+  margin-bottom: 90px;
   background-image: url("../../public/man-sitting.png");
-  background-repeat: no-repeat;
   background-position: top 0  right 0;
+  background-repeat: no-repeat;
 }
 
 .hero__title {
@@ -17,10 +17,10 @@
 }
 
 .hero__desc {
+  max-width: 520px;
   margin-top: 0;
   margin-bottom: 25px;
   line-height: 42px;
-  max-width: 520px;
 }
 
 .hero__content {

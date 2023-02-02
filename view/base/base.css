@@ -7,20 +7,20 @@
 }
 
 html {
-  text-size-adjust: 100%;
-  -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
   text-rendering: optimizelegibility;
+  text-size-adjust: 100%;
 }
 
 body {
   margin: 0;
-  font-family: Montserrat, "Helvetica Neue", sans-serif;
-  font-size: 18px;
-  line-height: 22px;
-  font-weight: 400;
   background-color: var(--background-0);
   color: var(--text-color-0);
+  font-family: Montserrat, "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
 }
 
 a {
@@ -28,18 +28,18 @@ a {
 }
 
 h1 {
-  margin-block-start: 0;
-  margin-block-end: 0;
-  font-weight: 700;
   font-size: 64px;
-  line-height: 80px;
+  font-weight: 700;
   letter-spacing: -1.5px;
+  line-height: 80px;
+  margin-block-end: 0;
+  margin-block-start: 0;
 }
 
 ul {
   list-style: none;
-  margin-block-start: 0;
   margin-block-end: 0;
+  margin-block-start: 0;
   padding-inline-start: 0;
 }
 
@@ -47,21 +47,21 @@ ul {
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
   position: absolute;
+  overflow: hidden;
   width: 1px;
   height: 1px;
-  margin: -1px;
-  border: 0;
   padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
+  border: 0;
+  margin: -1px;
   clip: rect(0 0 0 0);
-  overflow: hidden;
+  clip-path: inset(100%);
+  white-space: nowrap;
 }
 
 .container {
   max-width: calc(1280px + 20px + 20px);
-  margin-inline-start: auto;
-  margin-inline-end: auto;
-  padding-left: 20px;
   padding-right: 20px;
+  padding-left: 20px;
+  margin-inline-end: auto;
+  margin-inline-start: auto;
 }
