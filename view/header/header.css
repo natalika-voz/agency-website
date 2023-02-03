@@ -7,14 +7,14 @@
 
 .header__contact {
   display: flex;
-  min-height: 50px;
   align-items: center;
+  min-height: 50px;
   padding: 10px 42px;
-  border: 1px solid var(--pink);
-  border-radius: 5px;
-  color: var(--pink);
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
+  color: var(--pink);
   text-decoration: none;
+  border: 1px solid var(--pink);
+  border-radius: 5px;
 }

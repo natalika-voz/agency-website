@@ -1,16 +1,16 @@
 .button {
   display: inline-flex;
-  width: 180px;
-  height: 65px;
   align-items: center;
   justify-content: center;
+  width: 180px;
+  height: 65px;
   padding: 0;
-  border: none;
-  border-radius: 4px;
-  background-color: var(--violet);
-  color: var(--white);
   font-size: 20px;
   font-weight: 700;
   line-height: 40px;
+  color: var(--white);
   text-align: center;
+  background-color: var(--violet);
+  border: none;
+  border-radius: 4px;
 }

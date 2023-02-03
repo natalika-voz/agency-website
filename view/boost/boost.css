@@ -1,0 +1,21 @@
+.boost {
+  background-image: url("../../public/man-flies.png");
+  background-repeat: no-repeat;
+  background-position: top 0 left 0;
+}
+
+.boost__title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: -1.5px;
+}
+
+.boost__title_violet {
+  color: var(--violet);
+}
+
+.boost__text {
+  line-height: 34px;
+  opacity: 0.6;
+}

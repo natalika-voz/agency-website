@@ -1,9 +1,9 @@
 .clients__title {
-  color: var(--pink);
+  margin-block-start: 0;
+  margin-block-end: 10px;
   font-weight: 700;
   line-height: 40px;
-  margin-block-end: 10px;
-  margin-block-start: 0;
+  color: var(--pink);
   text-align: center;
   text-transform: capitalize;
 }
@@ -12,15 +12,15 @@
   max-width: 630px;
   margin: 0 auto 50px;
   font-size: 30px;
-  letter-spacing: -0.5px;
   line-height: 50px;
   text-align: center;
+  letter-spacing: -0.5px;
 }
 
 .clients__logo-list {
   display: flex;
   flex-wrap: wrap;
+  gap: 90px;
   align-items: center;
   justify-content: center;
-  gap: 90px;
 }
