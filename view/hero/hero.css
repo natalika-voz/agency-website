@@ -3,9 +3,10 @@
   min-height: 660px;
   padding-top: 100px;
   margin-bottom: 90px;
-  background-image: url("../../public/man-sitting.png");
+  background-image: url("/man-sitting@1x.png");
   background-repeat: no-repeat;
   background-position: top 0  right 0;
+  /* background-size: 696px 660px; */
 }
 
 .hero__title {
@@ -25,4 +26,8 @@
 
 .hero__content {
   max-width: 630px;
+}
+
+@media  {
+
 }
