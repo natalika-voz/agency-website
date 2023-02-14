@@ -1,0 +1,23 @@
+.hiring {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 70px;
+  margin-block-start: 0;
+  margin-block-end: 100px;
+  background-color: var(--violet);
+  background-image: url("shapes.svg");
+  background-repeat: no-repeat;
+  background-position: right 20px top 50%;
+}
+
+.hiring__text {
+  max-width: 611px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 55px;
+  color: var(--white);
+}

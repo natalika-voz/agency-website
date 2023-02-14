@@ -2,15 +2,34 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 180px;
-  height: 65px;
-  padding: 0;
+  min-height: 65px;
+  padding: 4px 30px;
   font-size: 20px;
   font-weight: 700;
   line-height: 40px;
   color: var(--white);
-  text-align: center;
+  cursor: pointer;
   background-color: var(--violet);
   border: none;
   border-radius: 4px;
+}
+
+.button_bordered {
+  color: var(--violet);
+  background-color: var(--white);
+  border: 1px solid var(--violet);
+}
+
+.button_pink {
+  background-color: var(--pink);
+}
+
+.button_pink.button_bordered {
+  color: var(--pink);
+  background-color: var(--white);
+  border: 1px solid var(--pink);
+}
+
+.button_small {
+  min-height: 50px;
 }

@@ -1,0 +1,16 @@
+.price__title {
+  margin-block-start: 0;
+  margin-block-end: 20px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+  text-align: center;
+}
+
+.price__text {
+  align-items: center;
+  max-width: 468px;
+  margin: 0 auto 50px;
+  line-height: 30px;
+  text-align: center;
+}

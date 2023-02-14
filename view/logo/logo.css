@@ -1,12 +1,9 @@
 .logo {
   display: flex;
   flex-wrap: wrap;
+  column-gap: 15px;
   align-items: center;
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
-}
-
-.logo__svg {
-  margin-right: 15px;
 }
