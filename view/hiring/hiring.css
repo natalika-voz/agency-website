@@ -10,6 +10,7 @@
   background-image: url("shapes.svg");
   background-repeat: no-repeat;
   background-position: right 20px top 50%;
+  border-radius: 26px;
 }
 
 .hiring__text {

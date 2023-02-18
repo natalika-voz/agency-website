@@ -26,10 +26,25 @@
 
 .button_pink.button_bordered {
   color: var(--pink);
-  background-color: var(--white);
+  background-color: transparent;
   border: 1px solid var(--pink);
 }
 
 .button_small {
   min-height: 50px;
+}
+
+.button_rounded {
+  border-radius: 24px;
+}
+
+.button_pink.button_ghost {
+  color: var(--pink);
+  background-color: var(--pink-light);
+}
+
+.button_pink.button_rounded {
+  width: 100%;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
 }

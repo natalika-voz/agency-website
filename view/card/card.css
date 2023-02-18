@@ -1,10 +1,42 @@
+.card {
+
+}
+
+.card_active {
+  background-color: var(--violet);
+  background-image: url("/card-pattern.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  border-radius: 26px;
+}
+
+.card__amount {
+  display: flex;
+  align-items: baseline;
+  margin-block-end: 5px;
+}
+
 .card__count {
   margin-block-start: 0;
   margin-block-end: 0;
+  margin-inline-end: 5px;
   font-size: 36px;
   font-weight: 700;
   line-height: 46px;
   color: var(--dark-violet);
+}
+
+.card__popular {
+  display: block;
+  padding: 7px 13px;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 12px;
+  color: var(--pink);
+  text-align: center;
+  letter-spacing: 0.833333px;
+  background-color: var(--blue);
+  border-radius: 13.5px;
 }
 
 .card__count-pale {
@@ -39,12 +71,15 @@
   display: flex;
   flex-direction: column;
   row-gap: 11px;
+  margin-block-end: 30px;
 }
 
 .card__item {
+  padding-inline-start: 30px;
   font-size: 16px;
   line-height: 20px;
   color: var(--gray);
-  background-image: url("/public/check-item.svg");
+  background-image: url("/check-item.svg");
   background-repeat: no-repeat;
+  background-position: 0 0;
 }
