@@ -1,0 +1,34 @@
+-
+  var cards = [
+    {
+      price: 50,
+      plan: "Base",
+      isActive: false,
+    },
+    {
+      price: 100,
+      plan: "Pro",
+      isActive: true,
+    },
+    {
+      price: 200,
+      plan: "Enterprise",
+      isActive: false,
+    }
+  ]
+
+each card in cards
+  .card(class=card.isActive ? 'card_active' : '')
+    span.card__popular Most popular
+    .card__amount
+      p.card__count $#{card.price}
+      span.card__month /month
+    p.card__rate #{card.plan}
+    p.card__description For most businesses that want to otpimize web queries
+    ul.card__list
+      li.card__item All limited links
+      li.card__item Own analytics platform
+      li.card__item Chat support
+      li.card__item Optimize hashtags
+      li.card__item Unlimited users
+    button.button.button_pink.button_rounded.button_small(class=!card.isActive ? 'button_ghost' : '') Choose plan

@@ -44,7 +44,5 @@
 }
 
 .button_pink.button_rounded {
-  width: 100%;
-  margin-inline-start: auto;
-  margin-inline-end: auto;
+  justify-content: center;
 }

@@ -30,7 +30,9 @@
       </nav>
       <a class="button button_pink button_bordered button_small" href="#">Contact</a>
     </header>
+  </div>
 
+  <div class="container">
     <main class="main">
       <section class="hero">
         <div class="hero__content">
@@ -103,79 +105,29 @@
         <h2 class="price__title">Our Price</h2>
         <p class="price__text">Choose the price that suits your needs, we will always give the best for you</p>
         <div class="price__list">
-          <div class="card">
-            <div class="card__amount">
-              <p class="card__count">$50</p>
-              <span class="card__count-pale">/month</span>
+          <template data-type="pug" data-src="./view/card/card.pug"></template>
+        </div>
+      </section>
+
+      <section class="reviews">
+        <div class="container">
+          <div class="reviews__container">
+            <div>
+              <template data-type="pug" data-src="./view/reviews/review.pug"></template>
             </div>
-            <p class="card__rate">Base</p>
-            <p class="card__description">For most businesses that want to otpimize web queries</p>
-            <ul class="card__list">
-              <li class="card__item">All limited links</li>
-              <li class="card__item">Own analytics platform</li>
-              <li class="card__item">Chat support</li>
-              <li class="card__item">Optimize hashtags</li>
-              <li class="card__item">Unlimited users</li>
-            </ul>
-            <button class="button button_pink button_rounded button_ghost">Choose plan</button>
-          </div>
-          <div class="card card_active">
-            <div class="card__amount">
-              <p class="card__count">$100</p>
-              <span class="card__count-pale">/month</span>
+
+            <div class="reviews__text-container">
+              <h2 class="reviews__title">Testimonials Eset Up Customers</h2>
+            <p class="reviews__text">What our customers have to say about our service, check below!</p>
             </div>
-            <span class="card__popular">MOST POPULAR</span>
-            <p class="card__rate">Pro</p>
-            <p class="card__description">For most businesses that want to otpimize web queries</p>
-            <ul class="card__list">
-              <li class="card__item">
-                All limited links
-              </li>
-              <li class="card__item">
-                Own analytics platform
-              </li>
-              <li class="card__item">
-                Chat support
-              </li>
-              <li class="card__item">
-                Optimize hashtags
-              </li>
-              <li class="card__item">
-                Unlimited users
-              </li>
-            </ul>
-            <button class="button button_pink button_rounded">Choose plan</button>
-          </div>
-          <div class="card">
-            <div class="card__amount">
-              <p class="card__count">$200</p>
-              <span class="card__count-pale">/month</span>
-            </div>
-            <p class="card__rate">Enterprise</p>
-            <p class="card__description">For most businesses that want to otpimize web queries</p>
-            <ul class="card__list">
-              <li class="card__item">
-                All limited links
-              </li>
-              <li class="card__item">
-                Own analytics platform
-              </li>
-              <li class="card__item">
-                Chat support
-              </li>
-              <li class="card__item">
-                Optimize hashtags
-              </li>
-              <li class="card__item">
-                Unlimited users
-              </li>
-            </ul>
-            <button class="button button_pink button_rounded button_ghost">Choose plan</button>
           </div>
         </div>
       </section>
     </main>
   </div>
+
+
+
   <script src="./index.js"></script>
 </body>
 
