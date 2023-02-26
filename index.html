@@ -31,9 +31,8 @@
       <a class="button button_pink button_bordered button_small" href="#">Contact</a>
     </header>
   </div>
-
-  <div class="container">
-    <main class="main">
+  <main class="main">
+    <div class="container">
       <section class="hero">
         <div class="hero__content">
           <h1 class="hero__title">Great software is built with <span class="hero__title-accent">amazing developers</span>
@@ -108,7 +107,7 @@
           <template data-type="pug" data-src="./view/card/card.pug"></template>
         </div>
       </section>
-
+    </div>
       <section class="reviews">
         <div class="container">
           <div class="reviews__container">
@@ -123,10 +122,30 @@
           </div>
         </div>
       </section>
-    </main>
-  </div>
+  </main>
 
-
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__text">Subscribe to get notified about update</p>
+      <p class="footer__text-small">By subscribing with your mail, you will accept our privacy policy</p>
+      <div class=""></div>
+      <div class="wrapper">
+        <div class="logo">
+          <img class="logo__svg" src="/logo.svg" width="27" height="37" alt="Логотип сайта Agency-Website">
+          <span class="logo__text logo__text_white">Eset Up</span>
+        </div>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li><a class="nav__link nav__link_white" href="#">Home</a></li>
+            <li><a class="nav__link nav__link_white" href="#">About</a></li>
+            <li><a class="nav__link nav__link_white" href="#">Service</a></li>
+            <li><a class="nav__link nav__link_white" href="#">Price</a></li>
+            <li><a class="nav__link nav__link_white" href="#">Testimonial</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    </footer>
 
   <script src="./index.js"></script>
 </body>

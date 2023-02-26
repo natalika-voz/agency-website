@@ -18,6 +18,10 @@
   color: var(--pink);
 }
 
+.nav__link_white {
+  color: var(--white);
+}
+
 @media (max-width: 959px) {
   .nav__link {
     font-size: 16px;
