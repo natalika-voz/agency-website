@@ -99,14 +99,14 @@
   background-position: 0 0;
 }
 
-.card_active .pricing-card__item {
+.pricing-card_active .pricing-card__item {
   background-image: url("/check-item-active.svg");
 }
 
-.card_active .pricing-card__count {
+.pricing-card_active .pricing-card__count {
   color: var(--white);
 }
 
-.card_active .pricing-card__rate {
+.pricing-card_active .pricing-card__rate {
   color: var(--white);
 }
