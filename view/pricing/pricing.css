@@ -1,4 +1,4 @@
-.price__title {
+.pricing__title {
   margin-block-start: 0;
   margin-block-end: 20px;
   font-size: 48px;
@@ -7,7 +7,7 @@
   text-align: center;
 }
 
-.price__text {
+.pricing__text {
   align-items: center;
   max-width: 468px;
   margin: 0 auto 50px;
@@ -15,7 +15,7 @@
   text-align: center;
 }
 
-.price__list {
+.pricing__cards {
   display: flex;
   flex-wrap: wrap;
   column-gap: 50px;

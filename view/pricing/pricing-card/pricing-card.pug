@@ -17,8 +17,9 @@
     }
   ]
 
+
 each card in cards
-  .card(class=card.isActive ? 'card_active' : '')
+  li.card(class=card.isActive ? 'card_active' : '')
     span.card__popular Most popular
     .card__amount
       p.card__count $#{card.price}
