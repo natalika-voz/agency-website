@@ -1,24 +1,4 @@
--
-  var cards = [
-    {
-      price: 50,
-      plan: "Base",
-      isActive: false,
-    },
-    {
-      price: 100,
-      plan: "Pro",
-      isActive: true,
-    },
-    {
-      price: 200,
-      plan: "Enterprise",
-      isActive: false,
-    }
-  ]
-
-
-each card in cards
+mixin pricing-card(card)
   li.pricing-card(class=card.isActive ? 'pricing-card_active' : '')
     span.pricing-card__popular Most popular
     .pricing-card__amount

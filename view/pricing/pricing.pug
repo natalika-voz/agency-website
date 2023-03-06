@@ -1,5 +1,27 @@
+include ./pricing-card/pricing-card.pug
+
+-
+  var pricingCards = [
+    {
+      price: 50,
+      plan: "Base",
+      isActive: false,
+    },
+    {
+      price: 100,
+      plan: "Pro",
+      isActive: true,
+    },
+    {
+      price: 200,
+      plan: "Enterprise",
+      isActive: false,
+    }
+  ]
+
 section.pricing
   h2.pricing__title Our Price
   p.pricing__text Choose the price that suits your needs, we will always give the best for you
   ul.pricing__cards
-    include pricing-card/pricing-card.pug
+    each card in pricingCards
+      +pricing-card(card)
