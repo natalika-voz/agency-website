@@ -4,7 +4,7 @@
   background-color: var(--black-blue);
   background-image: url("shapes-footer.svg");
   background-repeat: no-repeat;
-  background-position: right 253px bottom 7px;
+  background-position: right 210px bottom 7px;
 }
 
 .footer__text {
@@ -41,7 +41,7 @@
   font-size: 16px;
   line-height: 50px;
   color: var(--white);
-  background-color: rgba(255,255,255);
+  background-color: rgb(255 255 255);
   border: none;
   border-radius: 5px;
 }

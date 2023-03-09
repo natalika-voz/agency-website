@@ -3,19 +3,19 @@ include ./review/review.pug
 -
   var reviews = [
     {
-      imageUrl: '',
+      imageUrl: '../../testimonial-photo.jpg',
       name: 'Jhone Lown',
       rating: 4,
       text: '“after 1 month I consistently do sports in sprints, finally you lose about 20 kg in weight”',
     },
     {
-      imageUrl: '',
+      imageUrl: '../../testimonial-photo.jpg',
       name: 'Dbjbfh Fhkjn',
       rating: 4,
       text: '“gjfkehfleh bcjvehfkqlfn hvkrerbjf”',
     },
     {
-      imageUrl: '',
+      imageUrl: '../../testimonial-photo.jpg',
       name: 'Jhone Lown',
       rating: 4,
       text: '“after 1 month I consistently do sports in sprints, finally you lose about 20 kg in weight”',
@@ -27,11 +27,14 @@ section.reviews
     .reviews__container
       .reviews__slider
         .reviews__nav
-          button.reviews__prev(type="button" aria-label="previous slide")
-          button.reviews__next(type="button" aria-label="next slide")
+          button.reviews__nav-button.reviews__prev(type="button" aria-label="previous slide")
+          button.reviews__nav-button.reviews__next(type="button" aria-label="next slide")
         .reviews__slider-container
-          each review in reviews
-            +review(review)
+          .swiper
+            .swiper-wrapper
+              each review in reviews
+                .swiper-slide
+                  +review(review)
       .reviews__text-container
         h2.reviews__title Testimonials <br> Eset Up Customers
         p.reviews__text What our customers have to say about our <br> service, check below!

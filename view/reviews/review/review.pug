@@ -1,6 +1,7 @@
 mixin review(review)
   .review
     .review__photo
+      img(src=review.imageUrl, width="64", height="64", alt="")
     p.review__name #{review.name}
     .review__rating #{review.rating}
     p.review__text #{review.text}
